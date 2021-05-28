@@ -1,0 +1,17 @@
+<h1>{{ course }} {{ name }} </h1>
+
+<div id="class-list">
+    {{#weeks}}
+    <div id="week-item">
+        <a href="/"><h3>Week {{week}}: {{topic}} <span class="icon">keyboard_arrow_right</span></h3></a>
+        <div class="nav-border"></div>
+        <p>{{ desc }}</p>
+        <h4>Files</h4>
+        <ul>
+            {{#files }}
+                <li>{{name}}</li>
+            {{/files}}
+        </ul>
+    </div>
+    {{/weeks}}
+</div>

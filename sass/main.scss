@@ -148,17 +148,21 @@ nav #nav-right a {
 
 /* session listings */
 
-#session-item {
+#session-item, #week-item {
     border-radius: 1rem;
     border: 4px solid $pastel-blue;
     padding: 1.5rem;
+}
+
+#week-item {
+    border-color: $pastel-pink;
 }
 
 .descripted-item {
     margin: 1.8rem 0;
 }
 
-.descripted-item a {
+.descripted-item a, #week-item a {
     color: $fg;
 }
 

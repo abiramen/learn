@@ -34,8 +34,8 @@ app.get('/', (req, res, next) => {
 
 data.sessions.forEach((session) => {
   session.classes.forEach((cls) => {
-    app.use(`/{session}/{class}`, (req, res, next) => {
-      res.render('class', { class: cls, term: session.term, year: session.year })
+    app.get(`/${session.year}T${session.term}/${cls.class}`, (req, res, next) => {
+      res.render('class', { name: cls.class, assist: cls.assist, course: cls.course, weeks: cls.weeks, term: session.term, year: session.year })
     });
   });
 });
