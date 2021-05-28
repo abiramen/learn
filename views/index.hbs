@@ -1,0 +1,18 @@
+<h1>Abiram's Teaching Site</h1>
+
+<div id="session-list">
+    {{#sessions}}
+    <div id="session-item">
+        <h3>{{year}}T{{term}}</h3>
+        <div class="nav-border"></div>
+        <ul>
+            {{#classes}}
+            <li class="descripted-item">
+                <a href="/"><span class="item-title">{{course}} {{class}}<span class="icon">keyboard_arrow_right</span></span></a>
+                <div id="item-desc">with <strong>{{ assist }}</strong></div>
+            </li>
+            {{/classes}}
+        </ul>
+    </div>
+    {{/sessions}}
+</div>

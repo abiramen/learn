@@ -1,0 +1,28 @@
+{
+    "sessions": [{
+        "year": 21,
+        "term": 2,
+        "classes": [
+            {
+                "course": "COMP1521",
+                "class": "fri13a",
+                "assist": "Jashank",
+                "tutorials": [
+                    {
+                        "week": 1,
+                        "topic": "Revision",
+                        "desc": "Yay revision!",
+                        "slides": "",
+                        "text": "lol",
+                        "files" : [
+                            {
+                                "name": "test.c",
+                                "desc": "test"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }]
+}
