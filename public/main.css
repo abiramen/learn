@@ -6158,18 +6158,24 @@ nav #nav-right a {
   margin: 6rem 0; }
 
 /* session listings */
-#session-item, #week-item {
+.session-item, .week-item {
   border-radius: 1rem;
   border: 4px solid #a3d3ee;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  margin-bottom: 2rem; }
 
-#week-item {
+.week-item {
   border-color: #d6a2c5; }
+  .week-item p {
+    margin: 0.8rem 0; }
+
+#week-desc {
+  margin: -2rem 0 2rem 0; }
 
 .descripted-item {
   margin: 1.8rem 0; }
 
-.descripted-item a, #week-item a {
+.descripted-item a, .week-item a {
   color: #e9e9e9; }
 
 .item-title {

@@ -17,9 +17,9 @@ app.set('view engine', 'hbs');
 
 app.use(
   sass({
-    src: __dirname + '/sass', //where the sass files are 
-    dest: __dirname + '/public', //where css should go
-    debug: true // obvious
+    src: __dirname + '/sass',
+    dest: __dirname + '/public',
+    debug: false
 }));
 
 app.use(logger('dev'));
@@ -29,13 +29,39 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res, next) => {
+  // list all classes and sessions on homepage.
   res.render('index', { sessions: data.sessions });
 });
 
 data.sessions.forEach((session) => {
+  // redirect individual sessions to homepage listing.
+  app.get(`/${session.year}T${session.term}/`, (req, res, next) => {
+    res.redirect(`/#${session.year}T${session.term}`);
+  });
+  
   session.classes.forEach((cls) => {
+    // render the class page for a session.
     app.get(`/${session.year}T${session.term}/${cls.class}`, (req, res, next) => {
-      res.render('class', { name: cls.class, assist: cls.assist, course: cls.course, weeks: cls.weeks, term: session.term, year: session.year })
+      res.render('class', { 
+        name: cls.class, 
+        assist: cls.assist,
+        course: cls.course,
+        weeks: cls.weeks,
+        term: session.term,
+        year: session.year })
+    });
+
+    cls.weeks.forEach((week) => {
+      app.get(`/${session.year}T${session.term}/${cls.class}/week/${week.week}`, (req, res, next) => {
+        res.render('week', {
+          course: cls.course,
+          week: week.week,
+          slides: week.slides,
+          files: week.files,
+          desc: week.desc,
+          text: week.text
+        });
+      })
     });
   });
 });

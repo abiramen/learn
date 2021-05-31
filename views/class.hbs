@@ -2,10 +2,10 @@
 
 <div id="class-list">
     {{#weeks}}
-    <div id="week-item">
-        <a href="/"><h3>Week {{week}}: {{topic}} <span class="icon">keyboard_arrow_right</span></h3></a>
+    <div class="week-item">
+        <a href="/{{../year}}T{{../term}}/{{../name}}/week/{{week}}"><h3>Week {{week}}: {{topic}} <span class="icon">keyboard_arrow_right</span></h3></a>
         <div class="nav-border"></div>
-        <p>{{ desc }}</p>
+        <p>{{desc}}</p>
         <h4>Files</h4>
         <ul>
             {{#files }}
