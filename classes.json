@@ -7,21 +7,18 @@
                 "course": "COMP1521",
                 "class": "fri13a",
                 "assist": "Jashank",
+                "repo": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/",
                 "weeks": [
                     {
                         "week": 1,
                         "topic": "Revision",
                         "desc": "Yay revision!",
-                        "slides": "",
+                        "slides": "2PACX-1vT-yCKMqC4y1IrQdtmWZFbwRbKcMwZrIN5IbR-91qDLNJe0UBdPKLFIyH6Oj8BgDRmBMpeGi1Ds8wF3",
                         "text": "lol",
                         "files" : [
                             {
                                 "name": "test.c",
                                 "desc": "test"
-                            },
-                            {
-                                "name": "test2.c",
-                                "desc": "test2"
                             }
                         ]
                     }

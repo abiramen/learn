@@ -42,7 +42,7 @@ html, body {
     overflow-x: hidden;
     font-family: 'Metropolis';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     z-index: 1;
     scroll-behavior: smooth;
@@ -155,11 +155,16 @@ nav #nav-right a {
     margin-bottom: 2rem;
 }
 
+.week-item p {
+    margin: 1rem 0;
+}
+
+.session-item p {
+    margin: 0;
+}
+
 .week-item {
     border-color: $pastel-pink;
-    p {
-        margin: 0.8rem 0;
-    }
 }
 
 #week-desc {
@@ -195,4 +200,14 @@ a:hover {
     color: $pastel-pink;
     text-decoration: underline;
     cursor: pointer;
+}
+
+details {
+    margin: 0.8rem 0 -0.2rem -1rem;
+    font-size: 1.2rem;
+}
+
+iframe {
+    margin: 2rem auto 0 auto;
+    display: block;
 }

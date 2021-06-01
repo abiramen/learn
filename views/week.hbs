@@ -6,29 +6,21 @@
 </div>
 
 <div class="session-item">
-    <h3>Slides</h3>
+    <h3>Files</h3>
     <div class="nav-border"></div>
     <ul>
-        {{#classes}}
-        <li class="descripted-item">
-            <a href="/{{../year}}T{{../term}}/{{class}}"><span class="item-title">{{course}} {{class}}<span
-                        class="icon">keyboard_arrow_right</span></span></a>
-            <div id="item-desc">with <strong>{{ assist }}</strong></div>
-        </li>
-        {{/classes}}
+        {{#files}}
+        <details>
+            
+            <summary><strong>{{name}}</strong> - {{desc}}</summary>
+            <script src="/js/embed.js?target={{../repo}}week{{../week}}%2F{{name}}&style=darcula&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+        </details>
+        {{/files}}
     </ul>
 </div>
 
 <div class="session-item">
     <h3>Slides</h3>
     <div class="nav-border"></div>
-    <ul>
-        {{#classes}}
-        <li class="descripted-item">
-            <a href="/{{../year}}T{{../term}}/{{class}}"><span class="item-title">{{course}} {{class}}<span
-                        class="icon">keyboard_arrow_right</span></span></a>
-            <div id="item-desc">with <strong>{{ assist }}</strong></div>
-        </li>
-        {{/classes}}
-    </ul>
+    <iframe src="https://docs.google.com/presentation/d/e/{{slides}}/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>

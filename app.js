@@ -59,7 +59,8 @@ data.sessions.forEach((session) => {
           slides: week.slides,
           files: week.files,
           desc: week.desc,
-          text: week.text
+          text: week.text,
+          repo: cls.repo
         });
       })
     });
