@@ -13,18 +13,18 @@
                     {
                         "week": 1,
                         "topic": "Revision",
-                        "desc": "Yay revision!",
+                        "desc": "This week's content doesn't depend on any of the lectures! We're just familiarising ourselves again with concepts from COMP1[59]11.",
                         "slides": "2PACX-1vQEVgu2ls6Khm628sSfs0IUhVx8y4_8qreePHBnDuYWGq_zQ5rFgqVwC1rhMr5Mlq3Pb_Y-LSV3W3K3",
-                        "text": "lol",
+                        "text": "You're a bit early though - I haven't actually uploaded any content here yet!",
                         "files" : [
                             {
                                 "name": "test.c",
-                                "desc": "test"
+                                "desc": "Testing that embedding code works!"
                             }
                         ],
                         "links": [
                             {
-                                "name": "Course Website",
+                                "name": "Testing that I can link to stuff - here's a link to the course page!",
                                 "link": "https://cgi.cse.unsw.edu.au/~cs1521/"
                             }
                         ]

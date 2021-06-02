@@ -4,6 +4,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const sitename = 'learn.abiram.me';
 
 // const sass = require('node-sass-middleware');
 
@@ -30,7 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res, next) => {
   // list all classes and sessions on homepage.
-  res.render('index', { sessions: data.sessions });
+  res.render('index', { sessions: data.sessions, title: `home | ${sitename}` });
 });
 
 data.sessions.forEach((session) => {
@@ -45,7 +46,8 @@ data.sessions.forEach((session) => {
     const classPath = `/${session.year}T${session.term}/${cls.class}`;
 
     app.get([classPath, `/${classPath}/week`], (req, res, next) => {
-      res.render('class', { 
+      res.render('class', {
+        title: `${cls.class} | ${sitename}`,
         name: cls.class, 
         assist: cls.assist,
         course: cls.course,
@@ -58,6 +60,7 @@ data.sessions.forEach((session) => {
       const weekPath = `/${session.year}T${session.term}/${cls.class}/week/${week.week}`;
       app.get(weekPath, (req, res, next) => {
         res.render('week', {
+          title: `${cls.class} week ${week.week} | ${sitename}`,
           course: cls.course,
           week: week.week,
           slides: week.slides,
@@ -73,6 +76,7 @@ data.sessions.forEach((session) => {
 
       app.get(weekPath + '/feedback', (req, res, next) => {
         res.render('feedback', {
+          title: `Week ${week.week} Feedback | ${sitename}`,
           name: cls.class,
           week: week.week,
           weekPath: weekPath
@@ -80,10 +84,11 @@ data.sessions.forEach((session) => {
       });
 
       app.post(weekPath + '/feedback', (req, res, next) => {
+        // mostly yoinked from github.com/insou22/teach-web
         const formatDate = new Date().toISOString().replace(/T/, '_').replace(/\..+/, '');
         const name = `${session.year}T${session.term}-${cls.class}-wk${week.week}-${formatDate}`;
         fs.writeFile(`./feedback/${name}.json`, JSON.stringify(req.body, null, 4), ()=>{});
-        res.render('feedback_thanks', {weekPath: weekPath});
+          res.render('feedback_thanks', {title: `Week ${week.week} Feedback | ${sitename}`, weekPath: weekPath});
       });
 
 
