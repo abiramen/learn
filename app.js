@@ -42,7 +42,10 @@ data.sessions.forEach((session) => {
   
   session.classes.forEach((cls) => {
     // render the class page for a session.
-    app.get(`/${session.year}T${session.term}/${cls.class}`, (req, res, next) => {
+
+    const classPath = `/${session.year}T${session.term}/${cls.class}`;
+
+    app.get([classPath, `/${classPath}/week`], (req, res, next) => {
       res.render('class', { 
         name: cls.class, 
         assist: cls.assist,
@@ -64,6 +67,7 @@ data.sessions.forEach((session) => {
           text: week.text,
           repo: cls.repo,
           weekPath: weekPath,
+          classPath: classPath,
           links: week.links
         });
       });
@@ -77,9 +81,9 @@ data.sessions.forEach((session) => {
       });
 
       app.post(weekPath + '/feedback', (req, res, next) => {
-        const formatDate = new Date().toISOString.replace(/T/, '_').replace(/\..+/, '');
+        const formatDate = new Date().toISOString().replace(/T/, '_').replace(/\..+/, '');
         const name = `${session.year}T${session.term}-${cls.class}-wk${week.week}-${formatDate}`;
-        fs.writeFile(`feedback/${name}.json`, JSON.stringify(req.body, null, 4));
+        fs.writeFile(`./feedback/${name}.json`, JSON.stringify(req.body, null, 4), ()=>{});
         res.render('feedback_thanks', {weekPath: weekPath});
       });
 

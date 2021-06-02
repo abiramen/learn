@@ -1,7 +1,8 @@
 <h1>{{course}} Week {{week}}</h1>
+<strong><a href="{{classPath}}"><p id="class-assist"><span class="icon">keyboard_arrow_left</span> View all weeks</p></a></strong>
 <p id="week-desc">{{desc}}</p>
 
-<a class="button-link" href="{{weekPath}}/feedback"><button id="week-feedback-button">Give Feedback</button></a>
+<a class="button-link" href="{{weekPath}}/feedback"><button id="week-feedback-button">Give feedback</button></a>
 
 {{#if text}}
 <div class="session-item">
@@ -40,7 +41,4 @@
     <div class="nav-border"></div>
     <iframe src="https://docs.google.com/presentation/d/e/{{slides}}/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
-<<<<<<< HEAD
-=======
 {{/if}}
->>>>>>> Add links

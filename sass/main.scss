@@ -55,6 +55,7 @@ h1, h2, h3 {
 }
 
 h1 {
+    font-size: 2.3rem;
     padding-bottom: 2rem;
 }
 
@@ -164,12 +165,8 @@ nav #nav-right a {
     margin: 0;
 }
 
-.week-item {
-    border-color: $pastel-pink;
-}
-
 #week-desc {
-    margin: -2rem 0 2rem 0;
+    margin: -1rem 0 2rem 0;
 }
 
 #class-assist {
@@ -222,16 +219,16 @@ iframe {
 }
 
 button, input[type=submit] {
-    padding: 0.7rem 1.5rem 0.6rem 1.5rem;
-    border: 0.25rem solid $pastel-pink;
+    padding: 0.6rem 1.5rem 0.5rem 1.5rem;
+    border: 0.15rem solid $pastel-pink;
     margin: 1rem 0;
     display: block;
-    font: 500 1.2rem 'Metropolis';
+    font: 500 1rem 'Metropolis';
     border-radius: 0.5rem;
     background: transparent;
     color: $fg;
     cursor: pointer;
-    transition: border-color 0.2s;
+    transition: border-color 0.3s;
 }
 
 #week-feedback-button {
@@ -244,4 +241,16 @@ button, input[type=submit] {
 
 button:hover, input[type=submit]:hover {
     border-color: $pastel-blue;
+}
+
+.form-inline-label {
+    margin-right: 0.5rem;
+}
+
+#name-label {
+    margin-top: 1.5rem;
+}
+
+.feedback-label {
+    margin-top: 1rem;
 }
