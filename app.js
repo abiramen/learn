@@ -8,7 +8,6 @@ const logger = require('morgan');
 const sass = require('node-sass-middleware');
 
 const data = require('./classes.json');
-const usersRouter = require('./routes/users');
 
 const app = express();
 
@@ -91,9 +90,6 @@ data.sessions.forEach((session) => {
     });
   });
 });
-
-
-app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
