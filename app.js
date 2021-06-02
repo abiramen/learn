@@ -5,7 +5,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
-const sass = require('node-sass-middleware');
+// const sass = require('node-sass-middleware');
 
 const data = require('./classes.json');
 
@@ -15,12 +15,12 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
-app.use(
-  sass({
-    src: __dirname + '/sass',
-    dest: __dirname + '/public',
-    debug: false
-}));
+// app.use(
+//   sass({
+//     src: __dirname + '/sass',
+//     dest: __dirname + '/public',
+//     debug: false
+// }));
 
 app.use(logger('dev'));
 app.use(express.json());
