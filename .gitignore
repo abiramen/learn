@@ -63,4 +63,4 @@ typings/
 *.sh
 
 # ignore feedback
-feedback/
+feedback/*.json
