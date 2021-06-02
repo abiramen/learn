@@ -21,6 +21,12 @@
                                 "name": "test.c",
                                 "desc": "test"
                             }
+                        ],
+                        "links": [
+                            {
+                                "name": "Course Website",
+                                "link": "https://cgi.cse.unsw.edu.au/~cs1521/"
+                            }
                         ]
                     }
                 ]

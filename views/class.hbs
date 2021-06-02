@@ -1,4 +1,5 @@
 <h1>{{ course }} {{ name }} </h1>
+<p id="class-assist">with <strong>{{ assist }}</strong></p>
 
 <div id="class-list">
     {{#weeks}}
@@ -8,7 +9,7 @@
         <p>{{desc}}</p>
         <h4>Files</h4>
         <ul>
-            {{#files }}
+            {{#files}}
                 <li>{{name}}</li>
             {{/files}}
         </ul>

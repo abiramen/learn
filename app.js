@@ -63,7 +63,8 @@ data.sessions.forEach((session) => {
           desc: week.desc,
           text: week.text,
           repo: cls.repo,
-          weekPath: weekPath
+          weekPath: weekPath,
+          links: week.links
         });
       });
 

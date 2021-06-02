@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://www.abiram.me/assets/fonts/fonts.css");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6072,7 +6073,7 @@ html, body {
   overflow-x: hidden;
   font-family: 'Metropolis';
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   z-index: 1;
   scroll-behavior: smooth;
@@ -6175,6 +6176,12 @@ nav #nav-right a {
 
 #week-desc {
   margin: -2rem 0 2rem 0; }
+
+#class-assist {
+  margin: -2.5rem 0 2rem 0; }
+
+#week-text-desc {
+  margin-bottom: 0.5rem; }
 
 .descripted-item {
   margin: 1.8rem 0; }

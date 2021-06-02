@@ -1,4 +1,5 @@
 @import "bootstrap/bootstrap";
+@import url("https://www.abiram.me/assets/fonts/fonts.css");
 
 $bg: #111;
 $fg: #e9e9e9;
@@ -42,7 +43,7 @@ html, body {
     overflow-x: hidden;
     font-family: 'Metropolis';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     z-index: 1;
     scroll-behavior: smooth;
@@ -169,6 +170,14 @@ nav #nav-right a {
 
 #week-desc {
     margin: -2rem 0 2rem 0;
+}
+
+#class-assist {
+    margin: -2.5rem 0 2rem 0;
+}
+
+#week-text-desc {
+    margin-bottom: 0.5rem;
 }
 
 .descripted-item {
