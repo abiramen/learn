@@ -150,7 +150,7 @@ nav #nav-right a {
 
 .session-item, .week-item {
     border-radius: 1rem;
-    border: 4px solid $pastel-blue;
+    border: 0.25rem solid $pastel-blue;
     padding: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -210,4 +210,29 @@ details {
 iframe {
     margin: 2rem auto 0 auto;
     display: block;
+}
+
+button, input[type=submit] {
+    padding: 0.7rem 1.5rem 0.6rem 1.5rem;
+    border: 0.25rem solid $pastel-pink;
+    margin: 1rem 0;
+    display: block;
+    font: 500 1.2rem 'Metropolis';
+    border-radius: 0.5rem;
+    background: transparent;
+    color: $fg;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+#week-feedback-button {
+    margin: -1.5rem auto 1.2rem auto;
+}
+
+.button-link:hover {
+    text-decoration: none;
+}
+
+button:hover, input[type=submit]:hover {
+    border-color: $pastel-blue;
 }

@@ -1,3 +1,4 @@
+const fs = require('fs');
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
@@ -52,7 +53,8 @@ data.sessions.forEach((session) => {
     });
 
     cls.weeks.forEach((week) => {
-      app.get(`/${session.year}T${session.term}/${cls.class}/week/${week.week}`, (req, res, next) => {
+      const weekPath = `/${session.year}T${session.term}/${cls.class}/week/${week.week}`;
+      app.get(weekPath, (req, res, next) => {
         res.render('week', {
           course: cls.course,
           week: week.week,
@@ -60,9 +62,27 @@ data.sessions.forEach((session) => {
           files: week.files,
           desc: week.desc,
           text: week.text,
-          repo: cls.repo
+          repo: cls.repo,
+          weekPath: weekPath
         });
-      })
+      });
+
+      app.get(weekPath + '/feedback', (req, res, next) => {
+        res.render('feedback', {
+          name: cls.class,
+          week: week.week,
+          weekPath: weekPath
+        });
+      });
+
+      app.post(weekPath + '/feedback', (req, res, next) => {
+        const formatDate = new Date().toISOString.replace(/T/, '_').replace(/\..+/, '');
+        const name = `${session.year}T${session.term}-${cls.class}-wk${week.week}-${formatDate}`;
+        fs.writeFile(`feedback/${name}.json`, JSON.stringify(req.body, null, 4));
+        res.render('feedback_thanks', {weekPath: weekPath});
+      });
+
+
     });
   });
 });

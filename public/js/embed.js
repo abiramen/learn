@@ -37,7 +37,7 @@ function embed() {
 .emgithub-container .file-meta {
   padding: 0.75rem;
   border-radius: 0 0 0.3rem 0.3rem;
-  font: 12px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  font: 12px -apple-system, 'Metropolis', BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
   sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
@@ -87,7 +87,7 @@ function embed() {
   border: 1px solid black;
   border-radius: 3px;
   padding: 0.4rem;
-  font: bold 1em monospace;
+  font: bold 0.8em 'Metropolis', monospace;
   text-decoration: none;
 }
 
