@@ -2,11 +2,11 @@
 <strong><a href="{{weekPath}}"><p id="class-assist"><span class="icon">keyboard_arrow_left</span> View this week's resources</p></a></strong>
 
 <form action="{{weekPath}}/feedback" method="POST">
-<label for="codeword">What is the codeword?</label>
-<input type="text" name="codeword" id="codeword" class="form-control">
+<label for="codeword">What is the codeword?<span style="color:#d08383">*</span></label>
+<input type="text" name="codeword" id="codeword" class="form-control" required>
 <small>This should be in the first email I sent you, and is just to make sure you are actually in my class and not an internet stranger.</small><br>
 
-<label for="overall-rating" class="feedback-label form-inline-label">Rate how you feel overall about this week's tutorial.</label>
+<label for="overall-rating" class="feedback-label form-inline-label">Rate how you feel overall about this week's tutorial.<span style="color:#d08383">*</span></label>
 
 <div class="form-check form-check-inline" class="form-inline-label">
   <input class="form-check-input" type="radio" name="overall-rating" id="overall1" value="1">
@@ -17,67 +17,68 @@
   <label class="form-check-label" for="overall2">2</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="overall-rating" id="overall3" value="3">
+  <input class="form-check-input" type="radio" name="overall-rating" id="overall3" value="3" required>
   <label class="form-check-label" for="overall3">3</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="overall-rating" id="overall4" value="4">
+  <input class="form-check-input" type="radio" name="overall-rating" id="overall4" value="4" required>
   <label class="form-check-label" for="overall4">4</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="overall-rating" id="overall5" value="5">
+  <input class="form-check-input" type="radio" name="overall-rating" id="overall5" value="5" required>
   <label class="form-check-label" for="overall5">5</label>
 </div>
 <br/>
 
-<label for="content-rating" class="feedback-label form-inline-label">Rate how confident you feel with the content we covered this week.</label>
+<label for="content-rating" class="feedback-label form-inline-label">Rate how confident you feel with the content we covered this week.<span style="color:#d08383">*</span></label>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="content-rating" id="content1" value="1">
+  <input class="form-check-input" type="radio" name="content-rating" id="content1" value="1" required>
   <label class="form-check-label" for="content1">1</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="content-rating" id="content2" value="2">
+  <input class="form-check-input" type="radio" name="content-rating" id="content2" value="2" required>
   <label class="form-check-label" for="content2">2</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="content-rating" id="content3" value="3">
+  <input class="form-check-input" type="radio" name="content-rating" id="content3" value="3" required>
   <label class="form-check-label" for="content3">3</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="content-rating" id="content4" value="4">
+  <input class="form-check-input" type="radio" name="content-rating" id="content4" value="4" required>
   <label class="form-check-label" for="content4">4</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="content-rating" id="content5" value="5">
+  <input class="form-check-input" type="radio" name="content-rating" id="content5" value="5" required>
   <label class="form-check-label" for="content5">5</label>
 </div>
 <br/>
 
-<label for="speed-rating" class="feedback-label form-inline-label">How'd you find the pace of today's tutorial?</label>
+<label for="speed-rating" class="feedback-label form-inline-label">How'd you find the pace of today's tutorial?<span style="color:#d08383">*</span></label>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="speed-rating" id="speed1" value="v-slow">
+  <input class="form-check-input" type="radio" name="speed-rating" id="speed1" value="v-slow" required>
   <label class="form-check-label" for="speed1">Super slow 🐌</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="speed-rating" id="speed2" value="slow">
+  <input class="form-check-input" type="radio" name="speed-rating" id="speed2" value="slow" required>
   <label class="form-check-label" for="speed2">A bit slow 😫</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="speed-rating" id="speed3" value="good">
+  <input class="form-check-input" type="radio" name="speed-rating" id="speed3" value="good" required>
   <label class="form-check-label" for="speed3">Just right 👌</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="speed-rating" id="speed4" value="fast">
+  <input class="form-check-input" type="radio" name="speed-rating" id="speed4" value="fast" required>
   <label class="form-check-label" for="speed4">A bit fast 🤔</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="speed-rating" id="speed5" value="5">
+  <input class="form-check-input" type="radio" name="speed-rating" id="speed5" value="v-fast" required>
   <label class="form-check-label" for="speed5">Too speedy 🏃‍♂️</label>
 </div>
 <br/>
 
-<label for="specific-feedback" class="feedback-label">Do you have any more specific feedback?</label>
+<label for="specific-feedback" class="feedback-label">Do you have any specific feedback?</label>
 <textarea name="specific-feedback" id="specific-feedback" class="form-control"></textarea>
+<small>Anything goes! This can be something you really liked, something you think needs improving, or feedback you'd like me to pass onto the course admin team.</small>
 
 <label for="name" id="name-label">What is your name? (this is <strong>100% optional</strong>. Leave this blank to stay anonymous.)</label>
 <input type="text" name="name" id="name" class="form-control">
