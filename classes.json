@@ -13,7 +13,7 @@
                     {
                         "week": 1,
                         "topic": "Revision",
-                        "desc": "This week's content doesn't depend on any of the lectures! We're just familiarising ourselves again with concepts from COMP1[59]11.",
+                        "desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
                         "slides": "2PACX-1vQEVgu2ls6Khm628sSfs0IUhVx8y4_8qreePHBnDuYWGq_zQ5rFgqVwC1rhMr5Mlq3Pb_Y-LSV3W3K3",
                         "text": "You're a bit early though - I haven't actually uploaded any content here yet!",
                         "files" : [
@@ -24,8 +24,8 @@
                         ],
                         "links": [
                             {
-                                "name": "Testing that I can link to stuff - here's a link to the course page!",
-                                "link": "https://cgi.cse.unsw.edu.au/~cs1521/"
+                                "name": "All code is also in a GitHub repo, if you'd prefer that instead.",
+                                "link": "https://github.com/abiramen/comp1521-21t2-f13a"
                             }
                         ]
                     }
