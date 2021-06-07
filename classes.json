@@ -18,8 +18,32 @@
                         "text": "You're a bit early though - I haven't actually uploaded any content here yet!",
                         "files" : [
                             {
-                                "name": "test.c",
-                                "desc": "Testing that embedding code works!"
+                                "name": "for_loops.c",
+                                "desc": "An intro to for loops, which are really just spicy while loops."
+                            }, 
+                            {
+                                "name": "static.c",
+                                "desc": "A demo of the static keyword on variables inside functions."
+                            },
+                            {
+                                "name": "struct.c",
+                                "desc": "A refresher on how to use structs in C."
+                            },
+                            {
+                                "name": "args.c",
+                                "desc": "A refresher on reading in input from command line arguments."
+                            },
+                            {
+                                "name": "recursion.c",
+                                "desc": "An example using recursion to print an array."
+                            },
+                            {
+                                "name": "bad_strings.c",
+                                "desc": "A demo of an error when initialisng strings. Why does this happen?"
+                            },
+                            {
+                                "name": "literals.c",
+                                "desc": "Hardcoded strings behave slightly differently in C."
                             }
                         ],
                         "links": [
