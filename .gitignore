@@ -64,3 +64,4 @@ typings/
 
 # ignore feedback
 feedback/*.json
+feedback/read/*.json
