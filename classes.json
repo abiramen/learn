@@ -7,7 +7,6 @@
                 "course": "COMP1521",
                 "class": "fri13a",
                 "assist": "Jashank",
-                "lab": "bugle/horn",
                 "repo": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/",
                 "weeks": [
                     {
@@ -15,7 +14,7 @@
                         "topic": "Revision",
                         "desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
                         "slides": "2PACX-1vTNnvgpc9at_C6mMSMooxMJLkYiSzk5tIIPtIyK1IEIYWSe8_aw4K6lkq0CVD17L_XFfJD9Fqa53iyS",
-                        "text": "You're a bit early though - I haven't actually uploaded any content here yet!",
+                        "text": "Welcome!",
                         "files" : [
                             {
                                 "name": "for_loops.c",
@@ -52,6 +51,13 @@
                                 "link": "https://github.com/abiramen/comp1521-21t2-f13a"
                             }
                         ]
+                    },
+                    {
+                        "week": 2,
+                        "topic": "Bitwise operations and numeric conversions",
+                        "desc": "This week focuses on bitwise operations, and converting numbers to binary and hexadecimal!",
+                        "slides": "2PACX-1vQPnkSAvdgEJBI798wIb1GQo3V9zToRpjY4IgyxeyjpGWgkk8nQjdVKUbU4tfSWJxgBU8Uw_2Q3F8U7",
+                        "files" : []
                     }
                 ]
             }
