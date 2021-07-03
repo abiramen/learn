@@ -58,6 +58,75 @@
                         "desc": "This week focuses on bitwise operations, and converting numbers to binary and hexadecimal!",
                         "slides": "2PACX-1vQPnkSAvdgEJBI798wIb1GQo3V9zToRpjY4IgyxeyjpGWgkk8nQjdVKUbU4tfSWJxgBU8Uw_2Q3F8U7",
                         "files" : []
+                    },
+                    {
+                        "week": 3,
+                        "topic": "Two's complement and floating point numbers",
+                        "desc": "This week's lab heavily involve manipulating bits of floating point numbers.",
+                        "slides": "2PACX-1vRtJ_tIrB70w4EXETRxzo-G0FOkwZlv2qHPx3CPciHgsYDdCqVOdk8sMXiDtj2XSgbqMxyzAkRPqo1M",
+                        "files" : []
+                    },
+                    {
+                        "week": 4,
+                        "topic": "MIPS basics",
+                        "desc": "We get started with MIPS - labs include printing, if statements and for loops.",
+                        "files" : [
+                            {
+                                "name": "square.c",
+                                "desc": "Print a square number in C."
+                            }, 
+                            {
+                                "name": "square.s",
+                                "desc": "Print a square number in MIPS."
+                            }, 
+                            {
+                                "name": "square_max.c",
+                                "desc": "Print a square number in C, with a limit to prevent overflows."
+                            }, 
+                            {
+                                "name": "square_max.s",
+                                "desc": "Print a square number in MIPS, with a limit to prevent overflows."
+                            }
+                        ]
+                    },
+                    {
+                        "week": 5,
+                        "topic": "MIPS data, arrays and functions",
+                        "desc": "This week's a chonky one - we look at two weeks of content, preparing for the first assignment, snake.",
+                        "files" : [
+                            {
+                                "name": "variables.c",
+                                "desc": "Some C variables we want to represent as MIPS data."
+                            },
+                            {
+                                "name": "variables.s",
+                                "desc": "Our variables, now in ✨ MIPS ✨."
+                            },
+                            {
+                                "name": "do_while.c",
+                                "desc": "The all new do-while loop - a slightly cooler while loop."
+                            },
+                            {
+                                "name": "do_while.s",
+                                "desc": "The do-while loop, but in MIPS."
+                            },
+                            {
+                                "name": "scan_and_print.c",
+                                "desc": "Scanning 5 numbers into an array, and then printing them."
+                            },
+                            {
+                                "name": "scan_and_print.s",
+                                "desc": "Scanning 5 numbers into an array, and then printing them, but in MIPS!"
+                            },
+                            {
+                                "name": "factorial.c",
+                                "desc": "A simple factorial function."
+                            },
+                            {
+                                "name": "factorial.s",
+                                "desc": "Our factorial function, made slightly less simple by being implemented in MIPS."
+                            } 
+                        ]
                     }
                 ]
             }
