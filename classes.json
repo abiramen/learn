@@ -119,12 +119,16 @@
                                 "desc": "Scanning 5 numbers into an array, and then printing them, but in MIPS!"
                             },
                             {
-                                "name": "factorial.c",
-                                "desc": "A simple factorial function."
+                                "name": "fib.c",
+                                "desc": "A simple fibonacci implementation (without memoization) in C."
                             },
                             {
-                                "name": "factorial.s",
-                                "desc": "Our factorial function, made slightly less simple by being implemented in MIPS."
+                                "name": "fib.simple.c",
+                                "desc": "A fibonacci implementation made simpler to translate!"
+                            },
+                            {
+                                "name": "fib.s",
+                                "desc": "Our simple fibonacci implementation, made slightly less simple by being implemented in MIPS."
                             } 
                         ]
                     }
