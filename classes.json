@@ -186,6 +186,7 @@
                         "week": 9,
                         "topic": "Files",
                         "desc": "We take a peek into files and file systems!",
+                        "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
                         "files" : [
                             {
                                 "name": "0-q2.md",
@@ -230,6 +231,42 @@
                             {
                                 "name": "10-io.md",
                                 "desc": "Some final IO related content."
+                            }
+                        ]
+                    },
+                    {
+                        "week": 10,
+                        "topic": "Virtual memory and some concurrency and parallelism",
+                        "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+                        "desc": "We made it to the last week! We'll mainly be focusing on virtual memory.",
+                        "files" : [
+                            {
+                                "name": "virtual_memory.md",
+                                "desc": "The virtual memory content for this week's tutorial."
+                            },
+                            {
+                                "name": "lru_example.md",
+                                "desc": "An example of a least-recently-used eviction system."
+                            },
+                            {
+                                "name": "lru.c",
+                                "desc": "The starter code for this week's lab."
+                            },
+                            {
+                                "name": "contiguous.md",
+                                "desc": "An example of relocating addresses where address spaces are contiguous in physical memory."
+                            },
+                            {
+                                "name": "paged_proc.md",
+                                "desc": "An example where an address space is split across pages."
+                            },
+                            {
+                                "name": "working_set.md",
+                                "desc": "An example which looks at working sets and page faults."
+                            },
+                            {
+                                "name": "parallelism.md",
+                                "desc": "A quick overview of parallelism."
                             }
                         ]
                     }
