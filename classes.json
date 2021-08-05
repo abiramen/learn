@@ -131,6 +131,107 @@
                                 "desc": "Our simple fibonacci implementation, made slightly less simple by being implemented in MIPS."
                             } 
                         ]
+                    },
+                    {
+                        "week": 7,
+                        "topic": "Some MIPS Revision, and some hacking 👀",
+                        "desc": "We covered a good chunk of this week's content in Week 5, so there isn't that much here!",
+                        "files" : [
+                            {
+                                "name": "sizeof.c",
+                                "desc": "A program we can use in order to determine the size of a struct."
+                            },
+                            {
+                                "name": "struct.c",
+                                "desc": "A look at how structs are laid out in memory."
+                            },
+                            {
+                                "name": "unalign.s",
+                                "desc": "A demo of attempting an unaligned read of memory in MIPS."
+                            },
+                            {
+                                "name": "ptr.c",
+                                "desc": "Doing some hacky stuff with casts in C to do evil things with pointers."
+                            },
+                            {
+                                "name": "vuln.c",
+                                "desc": "Bonus content - why using system can lead to security vulnerabilities! You aren't expected to understand most of this code."
+                            }
+                        ]
+                    },
+                    {
+                        "week": 8,
+                        "topic": "Processes",
+                        "desc": "We take a look at some process related stuff, as well as some content related to the pathfinder lab.",
+                        "files" : [
+                            {
+                                "name": "access.c",
+                                "desc": "Using access to determine if the user has permissions to execute a file."
+                            },
+                            {
+                                "name": "fork.c",
+                                "desc": "Some basic code demonstrating forking a process."
+                            },
+                            {
+                                "name": "fork-2.c",
+                                "desc": "Some more code demonstrating forking, and non-determinism thanks to scheduling."
+                            },
+                            {
+                                "name": "basic-spawn.c",
+                                "desc": "A tutorial example where I demonstrated the fork-execve method of creating new processes, compared to posix_spawn."
+                            }
+                        ]
+                    },
+                    {
+                        "week": 9,
+                        "topic": "Files",
+                        "desc": "We take a peek into files and file systems!",
+                        "files" : [
+                            {
+                                "name": "0-q2.md",
+                                "desc": "A look at the typical Unix file system structure."
+                            },
+                            {
+                                "name": "1-q3.md",
+                                "desc": "Looking at the (very similar) stat and lstat functions."
+                            },
+                            {
+                                "name": "2-q3.c",
+                                "desc": "Some code to look at the fields of struct stat."
+                            },
+                            {
+                                "name": "3-q4.md",
+                                "desc": "Understanding the output of the ls command, and symlinks."
+                            },
+                            {
+                                "name": "4-q5.c",
+                                "desc": "Using stat(2) to determine permissions on a file, and chmod(2) to update permissions."
+                            },
+                            {
+                                "name": "5-fopen.c",
+                                "desc": "A look at the fopen(3) library function."
+                            },
+                            {
+                                "name": "6-firstline.c",
+                                "desc": "A program to print the first line of a file, similar to the output of the `head -1` command."
+                            },
+                            {
+                                "name": "7-fgrep.c",
+                                "desc": "A program which produces output similar to fgrep, but without the re."
+                            },
+                            {
+                                "name": "8-write_line.c",
+                                "desc": "A program which reads from stdin and writes to a file."
+                            },
+                            {
+                                "name": "9-q13-cursed.c",
+                                "desc": "A solution to a cursed tutorial question."
+                            },
+                            {
+                                "name": "10-io.c",
+                                "desc": "Some final IO related content."
+                            }
+                        ]
                     }
                 ]
             }
