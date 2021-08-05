@@ -196,7 +196,7 @@
                                 "desc": "Looking at the (very similar) stat and lstat functions."
                             },
                             {
-                                "name": "2-q3.c",
+                                "name": "2-q3-stat.c",
                                 "desc": "Some code to look at the fields of struct stat."
                             },
                             {
@@ -224,11 +224,11 @@
                                 "desc": "A program which reads from stdin and writes to a file."
                             },
                             {
-                                "name": "9-q13-cursed.c",
+                                "name": "9-q13-cursed.md",
                                 "desc": "A solution to a cursed tutorial question."
                             },
                             {
-                                "name": "10-io.c",
+                                "name": "10-io.md",
                                 "desc": "Some final IO related content."
                             }
                         ]
