@@ -209,7 +209,7 @@
                                 "desc": "Using stat(2) to determine permissions on a file, and chmod(2) to update permissions."
                             },
                             {
-                                "name": "5-fopen.c",
+                                "name": "5-fopen.md",
                                 "desc": "A look at the fopen(3) library function."
                             },
                             {
