@@ -1,5 +1,26 @@
 {
-    "sessions": [{
+    "sessions": [
+        {
+            "year": 21,
+            "term": 3,
+            "classes": [
+                {
+                    "course": "COMP1521",
+                    "class": "thu11a",
+                    "assist": "Aisha",
+                    "repo": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/",
+                    "weeks": [
+                        {
+                            "week": 1,
+                            "topic": "Revision",
+                            "desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
+                            "text": "Welcome! You're a little bit early.",
+                        }
+                    ]
+                }
+            ]
+        },
+        {
         "year": 21,
         "term": 2,
         "classes": [
