@@ -14,7 +14,35 @@
                             "week": 1,
                             "topic": "Revision",
                             "desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
-                            "text": "Welcome! You're a little bit early."
+                            "text": "Welcome! If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+                            "files": [
+                                {
+                                    "name": "intro.md",
+                                    "desc": "Revision of C."
+                                },
+                                {
+                                    "name": "static.c",
+                                    "desc": "Demonstration of the static keyword."
+                                },
+                                {
+                                    "name": "factorial.c",
+                                    "desc": "Recursive implementation of a factorial function."
+                                },
+                                {
+                                    "name": "print_array.c",
+                                    "desc": "Print an array using an recursive function."
+                                }
+                            ],
+                            "links" :[
+                                {
+                                    "name": "Memory diagram",
+                                    "link": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/week1/memory.png"
+                                },
+                                {
+                                    "name": "Newton's third law of computer science",
+                                    "link": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/week1/newtons-law.png"
+                                }
+                            ]
                         }
                     ]
                 }
