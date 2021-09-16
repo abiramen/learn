@@ -36,11 +36,11 @@
                             "links" :[
                                 {
                                     "name": "Memory diagram",
-                                    "link": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/week1/memory.png"
+                                    "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/memory.png"
                                 },
                                 {
                                     "name": "Newton's third law of computer science",
-                                    "link": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/week1/newtons-law.png"
+                                    "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/newtons-law.png"
                                 }
                             ]
                         }
