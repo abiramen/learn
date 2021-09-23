@@ -62,6 +62,12 @@
                                     "name": "reverse_bits.c",
                                     "desc": "The code from Q6 of the tutorial."
                                 }
+                            ],
+                            "links": [
+                                {
+                                    "name": "Bitwise operations spreadsheet",
+                                    "link": "https://docs.google.com/spreadsheets/d/1XpsL_ou03H-W1WEPs_7-AKLQMytpg8KLCsnNh0N_frI"
+                                }
                             ]
                         }
                     ]
