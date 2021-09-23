@@ -43,6 +43,26 @@
                                     "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/newtons-law.png"
                                 }
                             ]
+                        },
+                        {
+                            "week": 2,
+                            "topic": "Bitwise operations and numeric conversions",
+                            "desc": "This week looks at converting numbers to different bases, and performing bitwise operations on them.",
+                            "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+                            "files": [
+                                {
+                                    "name": "numbers.md",
+                                    "desc": "This week's tutorial content and notes, as well as some lab notes at the bottom."
+                                },
+                                {
+                                    "name": "example_device.c",
+                                    "desc": "How we might go about representing a device without bit fields."
+                                },
+                                {
+                                    "name": "reverse_bits.c",
+                                    "desc": "The code from Q6 of the tutorial."
+                                }
+                            ]
                         }
                     ]
                 }
