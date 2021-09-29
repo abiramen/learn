@@ -69,6 +69,36 @@
                                     "link": "https://docs.google.com/spreadsheets/d/1XpsL_ou03H-W1WEPs_7-AKLQMytpg8KLCsnNh0N_frI"
                                 }
                             ]
+                        },
+                        {
+                            "week": 3,
+                            "topic": "Two's complement and floating point representations",
+                            "desc": "This week looks at representing negative numbers and non-whole numbers.",
+                            "text": "You can preview the notes by visiting the link below!",
+                            "files": [
+                                {
+                                    "name": "week3.md",
+                                    "desc": "This week's tutorial content and notes, as well as some lab notes at the bottom."
+                                },
+                                {
+                                    "name": "my_first_union.c",
+                                    "desc": "A sample union."
+                                },
+                                {
+                                    "name": "six_bit_groups.c",
+                                    "desc": "A modified version of Q6 from the tutorial which revises structs as well!"
+                                }
+                            ],
+                            "links": [
+                                {
+                                    "name": "Tutorial notes",
+                                    "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week3/week3.md"
+                                },
+                                {
+                                    "name": "Two's complement spreadsheet",
+                                    "link": "https://docs.google.com/spreadsheets/d/1Sf8U_3197HNtd-399DcJiLHrb7N_ZJn5X0rWq5uHl8M/edit?usp=sharing"
+                                }
+                            ]
                         }
                     ]
                 }
