@@ -99,6 +99,49 @@
                                     "link": "https://docs.google.com/spreadsheets/d/1Sf8U_3197HNtd-399DcJiLHrb7N_ZJn5X0rWq5uHl8M/edit?usp=sharing"
                                 }
                             ]
+                        },
+                        {
+                            "week": 4,
+                            "topic": "MIPS basics",
+                            "desc": "We get started with MIPS - labs include printing, if statements and for loops.",
+                            "files" : [
+                                {
+                                    "name": "mips-basics.s",
+                                    "desc": "This week's tutorial content."
+                                }, 
+                                {
+                                    "name": "square.s",
+                                    "desc": "Print a square number in MIPS."
+                                }, 
+                                {
+                                    "name": "square_max.simple.c",
+                                    "desc": "Print a square number in C, with a limit to prevent overflows."
+                                }, 
+                                {
+                                    "name": "square_max.s",
+                                    "desc": "Print a square number in MIPS, with a limit to prevent overflows."
+                                },
+                                {
+                                    "name": "number_size.simple.c",
+                                    "desc": "A C program which checks if a number is in a range."
+                                },
+                                {
+                                    "name": "number_size.s",
+                                    "desc": "The previous program, but in MIPS."
+                                },
+                                {
+                                    "name": "factorial.simple.c",
+                                    "desc": "A simple program which non-recursively calculates a factorial in C."
+                                },
+                                {
+                                    "name": "factorial.s",
+                                    "desc": "The previous program, but in MIPS."
+                                }
+                            ],
+                            "links": [{
+                                "name": "Tutorial notes",
+                                "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week4/mips-basics.md"
+                            }]
                         }
                     ]
                 }
