@@ -104,6 +104,7 @@
                             "week": 4,
                             "topic": "MIPS basics",
                             "desc": "We get started with MIPS - labs include printing, if statements and for loops.",
+                            "text": "You can preview the notes by visiting the link below!",
                             "files" : [
                                 {
                                     "name": "mips-basics.md",
