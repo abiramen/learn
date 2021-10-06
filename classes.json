@@ -106,7 +106,7 @@
                             "desc": "We get started with MIPS - labs include printing, if statements and for loops.",
                             "files" : [
                                 {
-                                    "name": "mips-basics.s",
+                                    "name": "mips-basics.md",
                                     "desc": "This week's tutorial content."
                                 }, 
                                 {
