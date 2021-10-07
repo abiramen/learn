@@ -111,32 +111,60 @@
                                     "desc": "This week's tutorial content."
                                 }, 
                                 {
+                                    "name": "square.c",
+                                    "desc": "Print a square number in MIPS."
+                                }, 
+                                {
                                     "name": "square.s",
                                     "desc": "Print a square number in MIPS."
                                 }, 
                                 {
-                                    "name": "square_max.simple.c",
+                                    "name": "square_max.c",
                                     "desc": "Print a square number in C, with a limit to prevent overflows."
+                                }, 
+                                {
+                                    "name": "square_max.simple.c",
+                                    "desc": "The above program, but simplified."
                                 }, 
                                 {
                                     "name": "square_max.s",
                                     "desc": "Print a square number in MIPS, with a limit to prevent overflows."
-                                },
+                                }, 
                                 {
-                                    "name": "number_size.simple.c",
+                                    "name": "number_size.c",
                                     "desc": "A C program which checks if a number is in a range."
                                 },
                                 {
-                                    "name": "number_size.s",
-                                    "desc": "The previous program, but in MIPS."
+                                    "name": "number_size.simple.c",
+                                    "desc": "The above program, but simplified."
                                 },
                                 {
-                                    "name": "factorial.simple.c",
+                                    "name": "number_size.s",
+                                    "desc": "The above program, but in MIPS."
+                                },
+                                {
+                                    "name": "triangle.c",
+                                    "desc": "Print a triangle using nested for loops."
+                                },
+                                {
+                                    "name": "triangle.simple.c",
+                                    "desc": "The above program, but simplified."
+                                },
+                                {
+                                    "name": "triangle.s",
+                                    "desc": "The above program, but in MIPS."
+                                },
+                                {
+                                    "name": "factorial.c",
                                     "desc": "A simple program which non-recursively calculates a factorial in C."
                                 },
                                 {
+                                    "name": "factorial.simple.c",
+                                    "desc": "The above program, but simplified."
+                                },
+                                {
                                     "name": "factorial.s",
-                                    "desc": "The previous program, but in MIPS."
+                                    "desc": "The above program, but in MIPS."
                                 }
                             ],
                             "links": [{
