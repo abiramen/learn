@@ -1,454 +1,454 @@
 {
-    "sessions": [
-        {
-            "year": 21,
-            "term": 3,
-            "classes": [
-                {
-                    "course": "COMP1521",
-                    "class": "thu11a",
-                    "assist": "Aisha",
-                    "repo": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/",
-                    "weeks": [
-                        {
-                            "week": 1,
-                            "topic": "Revision",
-                            "desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
-                            "text": "Welcome! If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
-                            "files": [
-                                {
-                                    "name": "intro.md",
-                                    "desc": "Revision of C."
-                                },
-                                {
-                                    "name": "static.c",
-                                    "desc": "Demonstration of the static keyword."
-                                },
-                                {
-                                    "name": "factorial.c",
-                                    "desc": "Recursive implementation of a factorial function."
-                                },
-                                {
-                                    "name": "print_array.c",
-                                    "desc": "Print an array using an recursive function."
-                                }
-                            ],
-                            "links" :[
-                                {
-                                    "name": "Memory diagram",
-                                    "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/memory.png"
-                                },
-                                {
-                                    "name": "Newton's third law of computer science",
-                                    "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/newtons-law.png"
-                                }
-                            ]
-                        },
-                        {
-                            "week": 2,
-                            "topic": "Bitwise operations and numeric conversions",
-                            "desc": "This week looks at converting numbers to different bases, and performing bitwise operations on them.",
-                            "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
-                            "files": [
-                                {
-                                    "name": "numbers.md",
-                                    "desc": "This week's tutorial content and notes, as well as some lab notes at the bottom."
-                                },
-                                {
-                                    "name": "example_device.c",
-                                    "desc": "How we might go about representing a device without bit fields."
-                                },
-                                {
-                                    "name": "reverse_bits.c",
-                                    "desc": "The code from Q6 of the tutorial."
-                                }
-                            ],
-                            "links": [
-                                {
-                                    "name": "Bitwise operations spreadsheet",
-                                    "link": "https://docs.google.com/spreadsheets/d/1XpsL_ou03H-W1WEPs_7-AKLQMytpg8KLCsnNh0N_frI"
-                                }
-                            ]
-                        },
-                        {
-                            "week": 3,
-                            "topic": "Two's complement and floating point representations",
-                            "desc": "This week looks at representing negative numbers and non-whole numbers.",
-                            "text": "You can preview the notes by visiting the link below!",
-                            "files": [
-                                {
-                                    "name": "week3.md",
-                                    "desc": "This week's tutorial content and notes, as well as some lab notes at the bottom."
-                                },
-                                {
-                                    "name": "my_first_union.c",
-                                    "desc": "A sample union."
-                                },
-                                {
-                                    "name": "six_bit_groups.c",
-                                    "desc": "A modified version of Q6 from the tutorial which revises structs as well!"
-                                }
-                            ],
-                            "links": [
-                                {
-                                    "name": "Tutorial notes",
-                                    "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week3/week3.md"
-                                },
-                                {
-                                    "name": "Two's complement spreadsheet",
-                                    "link": "https://docs.google.com/spreadsheets/d/1Sf8U_3197HNtd-399DcJiLHrb7N_ZJn5X0rWq5uHl8M/edit?usp=sharing"
-                                }
-                            ]
-                        },
-                        {
-                            "week": 4,
-                            "topic": "MIPS basics",
-                            "desc": "We get started with MIPS - labs include printing, if statements and for loops.",
-                            "text": "You can preview the notes by visiting the link below!",
-                            "files" : [
-                                {
-                                    "name": "mips-basics.md",
-                                    "desc": "This week's tutorial content."
-                                }, 
-                                {
-                                    "name": "square.c",
-                                    "desc": "Print a square number in MIPS."
-                                }, 
-                                {
-                                    "name": "square.s",
-                                    "desc": "Print a square number in MIPS."
-                                }, 
-                                {
-                                    "name": "square_max.c",
-                                    "desc": "Print a square number in C, with a limit to prevent overflows."
-                                }, 
-                                {
-                                    "name": "square_max.simple.c",
-                                    "desc": "The above program, but simplified."
-                                }, 
-                                {
-                                    "name": "square_max.s",
-                                    "desc": "Print a square number in MIPS, with a limit to prevent overflows."
-                                }, 
-                                {
-                                    "name": "number_size.c",
-                                    "desc": "A C program which checks if a number is in a range."
-                                },
-                                {
-                                    "name": "number_size.simple.c",
-                                    "desc": "The above program, but simplified."
-                                },
-                                {
-                                    "name": "number_size.s",
-                                    "desc": "The above program, but in MIPS."
-                                },
-                                {
-                                    "name": "triangle.c",
-                                    "desc": "Print a triangle using nested for loops."
-                                },
-                                {
-                                    "name": "triangle.simple.c",
-                                    "desc": "The above program, but simplified."
-                                },
-                                {
-                                    "name": "triangle.s",
-                                    "desc": "The above program, but in MIPS."
-                                },
-                                {
-                                    "name": "factorial.c",
-                                    "desc": "A simple program which non-recursively calculates a factorial in C."
-                                },
-                                {
-                                    "name": "factorial.simple.c",
-                                    "desc": "The above program, but simplified."
-                                },
-                                {
-                                    "name": "factorial.s",
-                                    "desc": "The above program, but in MIPS."
-                                }
-                            ],
-                            "links": [{
-                                "name": "Tutorial notes",
-                                "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week4/mips-basics.md"
-                            }]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-        "year": 21,
-        "term": 2,
-        "classes": [
-            {
-                "course": "COMP1521",
-                "class": "fri13a",
-                "assist": "Jashank",
-                "repo": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/",
-                "weeks": [
-                    {
-                        "week": 1,
-                        "topic": "Revision",
-                        "desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
-                        "slides": "2PACX-1vTNnvgpc9at_C6mMSMooxMJLkYiSzk5tIIPtIyK1IEIYWSe8_aw4K6lkq0CVD17L_XFfJD9Fqa53iyS",
-                        "text": "Welcome!",
-                        "files" : [
-                            {
-                                "name": "for_loops.c",
-                                "desc": "An intro to for loops, which are really just spicy while loops."
-                            }, 
-                            {
-                                "name": "static.c",
-                                "desc": "A demo of the static keyword on variables inside functions."
-                            },
-                            {
-                                "name": "struct.c",
-                                "desc": "A refresher on how to use structs in C."
-                            },
-                            {
-                                "name": "args.c",
-                                "desc": "A refresher on reading in input from command line arguments."
-                            },
-                            {
-                                "name": "recursion.c",
-                                "desc": "An example using recursion to print an array."
-                            },
-                            {
-                                "name": "bad_strings.c",
-                                "desc": "A demo of an error when initialisng strings. Why does this happen?"
-                            },
-                            {
-                                "name": "literals.c",
-                                "desc": "Hardcoded strings behave slightly differently in C."
-                            }
-                        ],
-                        "links": [
-                            {
-                                "name": "All code is also in a GitHub repo, if you'd prefer that instead.",
-                                "link": "https://github.com/abiramen/comp1521-21t2-f13a"
-                            }
-                        ]
-                    },
-                    {
-                        "week": 2,
-                        "topic": "Bitwise operations and numeric conversions",
-                        "desc": "This week focuses on bitwise operations, and converting numbers to binary and hexadecimal!",
-                        "slides": "2PACX-1vQPnkSAvdgEJBI798wIb1GQo3V9zToRpjY4IgyxeyjpGWgkk8nQjdVKUbU4tfSWJxgBU8Uw_2Q3F8U7",
-                        "files" : []
-                    },
-                    {
-                        "week": 3,
-                        "topic": "Two's complement and floating point numbers",
-                        "desc": "This week's lab heavily involve manipulating bits of floating point numbers.",
-                        "slides": "2PACX-1vRtJ_tIrB70w4EXETRxzo-G0FOkwZlv2qHPx3CPciHgsYDdCqVOdk8sMXiDtj2XSgbqMxyzAkRPqo1M",
-                        "files" : []
-                    },
-                    {
-                        "week": 4,
-                        "topic": "MIPS basics",
-                        "desc": "We get started with MIPS - labs include printing, if statements and for loops.",
-                        "files" : [
-                            {
-                                "name": "square.c",
-                                "desc": "Print a square number in C."
-                            }, 
-                            {
-                                "name": "square.s",
-                                "desc": "Print a square number in MIPS."
-                            }, 
-                            {
-                                "name": "square_max.c",
-                                "desc": "Print a square number in C, with a limit to prevent overflows."
-                            }, 
-                            {
-                                "name": "square_max.s",
-                                "desc": "Print a square number in MIPS, with a limit to prevent overflows."
-                            }
-                        ]
-                    },
-                    {
-                        "week": 5,
-                        "topic": "MIPS data, arrays and functions",
-                        "desc": "This week's a chonky one - we look at two weeks of content, preparing for the first assignment, snake.",
-                        "files" : [
-                            {
-                                "name": "variables.c",
-                                "desc": "Some C variables we want to represent as MIPS data."
-                            },
-                            {
-                                "name": "variables.s",
-                                "desc": "Our variables, now in ✨ MIPS ✨."
-                            },
-                            {
-                                "name": "do_while.c",
-                                "desc": "The all new do-while loop - a slightly cooler while loop."
-                            },
-                            {
-                                "name": "do_while.s",
-                                "desc": "The do-while loop, but in MIPS."
-                            },
-                            {
-                                "name": "scan_and_print.c",
-                                "desc": "Scanning 5 numbers into an array, and then printing them."
-                            },
-                            {
-                                "name": "scan_and_print.s",
-                                "desc": "Scanning 5 numbers into an array, and then printing them, but in MIPS!"
-                            },
-                            {
-                                "name": "fib.c",
-                                "desc": "A simple fibonacci implementation (without memoization) in C."
-                            },
-                            {
-                                "name": "fib.simple.c",
-                                "desc": "A fibonacci implementation made simpler to translate!"
-                            },
-                            {
-                                "name": "fib.s",
-                                "desc": "Our simple fibonacci implementation, made slightly less simple by being implemented in MIPS."
-                            } 
-                        ]
-                    },
-                    {
-                        "week": 7,
-                        "topic": "Some MIPS Revision, and some hacking 👀",
-                        "desc": "We covered a good chunk of this week's content in Week 5, so there isn't that much here!",
-                        "files" : [
-                            {
-                                "name": "sizeof.c",
-                                "desc": "A program we can use in order to determine the size of a struct."
-                            },
-                            {
-                                "name": "struct.c",
-                                "desc": "A look at how structs are laid out in memory."
-                            },
-                            {
-                                "name": "unalign.s",
-                                "desc": "A demo of attempting an unaligned read of memory in MIPS."
-                            },
-                            {
-                                "name": "ptr.c",
-                                "desc": "Doing some hacky stuff with casts in C to do evil things with pointers."
-                            },
-                            {
-                                "name": "vuln.c",
-                                "desc": "Bonus content - why using system can lead to security vulnerabilities! You aren't expected to understand most of this code."
-                            }
-                        ]
-                    },
-                    {
-                        "week": 8,
-                        "topic": "Processes",
-                        "desc": "We take a look at some process related stuff, as well as some content related to the pathfinder lab.",
-                        "files" : [
-                            {
-                                "name": "access.c",
-                                "desc": "Using access to determine if the user has permissions to execute a file."
-                            },
-                            {
-                                "name": "fork.c",
-                                "desc": "Some basic code demonstrating forking a process."
-                            },
-                            {
-                                "name": "fork-2.c",
-                                "desc": "Some more code demonstrating forking, and non-determinism thanks to scheduling."
-                            },
-                            {
-                                "name": "basic-spawn.c",
-                                "desc": "A tutorial example where I demonstrated the fork-execve method of creating new processes, compared to posix_spawn."
-                            }
-                        ]
-                    },
-                    {
-                        "week": 9,
-                        "topic": "Files",
-                        "desc": "We take a peek into files and file systems!",
-                        "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
-                        "files" : [
-                            {
-                                "name": "0-q2.md",
-                                "desc": "A look at the typical Unix file system structure."
-                            },
-                            {
-                                "name": "1-q3.md",
-                                "desc": "Looking at the (very similar) stat and lstat functions."
-                            },
-                            {
-                                "name": "2-q3-stat.c",
-                                "desc": "Some code to look at the fields of struct stat."
-                            },
-                            {
-                                "name": "3-q4.md",
-                                "desc": "Understanding the output of the ls command, and symlinks."
-                            },
-                            {
-                                "name": "4-q5.c",
-                                "desc": "Using stat(2) to determine permissions on a file, and chmod(2) to update permissions."
-                            },
-                            {
-                                "name": "5-fopen.md",
-                                "desc": "A look at the fopen(3) library function."
-                            },
-                            {
-                                "name": "6-firstline.c",
-                                "desc": "A program to print the first line of a file, similar to the output of the `head -1` command."
-                            },
-                            {
-                                "name": "7-fgrep.c",
-                                "desc": "A program which produces output similar to fgrep, but without the re."
-                            },
-                            {
-                                "name": "8-write_line.c",
-                                "desc": "A program which reads from stdin and writes to a file."
-                            },
-                            {
-                                "name": "9-q13-cursed.md",
-                                "desc": "A solution to a cursed tutorial question."
-                            },
-                            {
-                                "name": "10-io.md",
-                                "desc": "Some final IO related content."
-                            }
-                        ]
-                    },
-                    {
-                        "week": 10,
-                        "topic": "Virtual memory and some concurrency and parallelism",
-                        "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
-                        "desc": "We made it to the last week! We'll mainly be focusing on virtual memory.",
-                        "files" : [
-                            {
-                                "name": "virtual_memory.md",
-                                "desc": "The virtual memory content for this week's tutorial."
-                            },
-                            {
-                                "name": "lru_example.md",
-                                "desc": "An example of a least-recently-used eviction system."
-                            },
-                            {
-                                "name": "lru.c",
-                                "desc": "The starter code for this week's lab."
-                            },
-                            {
-                                "name": "contiguous.md",
-                                "desc": "An example of relocating addresses where address spaces are contiguous in physical memory."
-                            },
-                            {
-                                "name": "paged_proc.md",
-                                "desc": "An example where an address space is split across pages."
-                            },
-                            {
-                                "name": "working_set.md",
-                                "desc": "An example which looks at working sets and page faults."
-                            },
-                            {
-                                "name": "parallelism.md",
-                                "desc": "A quick overview of parallelism."
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }]
+	"sessions": [
+		{
+			"year": 21,
+			"term": 3,
+			"classes": [
+				{
+					"course": "COMP1521",
+					"class": "thu11a",
+					"assist": "Aisha",
+					"repo": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/",
+					"weeks": [
+						{
+							"week": 1,
+							"topic": "Revision",
+							"desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
+							"text": "Welcome! If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+							"files": [
+								{
+									"name": "intro.md",
+									"desc": "Revision of C."
+								},
+								{
+									"name": "static.c",
+									"desc": "Demonstration of the static keyword."
+								},
+								{
+									"name": "factorial.c",
+									"desc": "Recursive implementation of a factorial function."
+								},
+								{
+									"name": "print_array.c",
+									"desc": "Print an array using an recursive function."
+								}
+							],
+							"links" :[
+								{
+									"name": "Memory diagram",
+									"link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/memory.png"
+								},
+								{
+									"name": "Newton's third law of computer science",
+									"link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week1/newtons-law.png"
+								}
+							]
+						},
+						{
+							"week": 2,
+							"topic": "Bitwise operations and numeric conversions",
+							"desc": "This week looks at converting numbers to different bases, and performing bitwise operations on them.",
+							"text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+							"files": [
+								{
+									"name": "numbers.md",
+									"desc": "This week's tutorial content and notes, as well as some lab notes at the bottom."
+								},
+								{
+									"name": "example_device.c",
+									"desc": "How we might go about representing a device without bit fields."
+								},
+								{
+									"name": "reverse_bits.c",
+									"desc": "The code from Q6 of the tutorial."
+								}
+							],
+							"links": [
+								{
+									"name": "Bitwise operations spreadsheet",
+									"link": "https://docs.google.com/spreadsheets/d/1XpsL_ou03H-W1WEPs_7-AKLQMytpg8KLCsnNh0N_frI"
+								}
+							]
+						},
+						{
+							"week": 3,
+							"topic": "Two's complement and floating point representations",
+							"desc": "This week looks at representing negative numbers and non-whole numbers.",
+							"text": "You can preview the notes by visiting the link below!",
+							"files": [
+								{
+									"name": "week3.md",
+									"desc": "This week's tutorial content and notes, as well as some lab notes at the bottom."
+								},
+								{
+									"name": "my_first_union.c",
+									"desc": "A sample union."
+								},
+								{
+									"name": "six_bit_groups.c",
+									"desc": "A modified version of Q6 from the tutorial which revises structs as well!"
+								}
+							],
+							"links": [
+								{
+									"name": "Tutorial notes",
+									"link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week3/week3.md"
+								},
+								{
+									"name": "Two's complement spreadsheet",
+									"link": "https://docs.google.com/spreadsheets/d/1Sf8U_3197HNtd-399DcJiLHrb7N_ZJn5X0rWq5uHl8M/edit?usp=sharing"
+								}
+							]
+						},
+						{
+							"week": 4,
+							"topic": "MIPS basics",
+							"desc": "We get started with MIPS - labs include printing, if statements and for loops.",
+							"text": "You can preview the notes by visiting the link below!",
+							"files" : [
+								{
+									"name": "mips-basics.md",
+									"desc": "This week's tutorial content."
+								}, 
+								{
+									"name": "square.c",
+									"desc": "Print a square number in MIPS."
+								}, 
+								{
+									"name": "square.s",
+									"desc": "Print a square number in MIPS."
+								}, 
+								{
+									"name": "square_max.c",
+									"desc": "Print a square number in C, with a limit to prevent overflows."
+								}, 
+								{
+									"name": "square_max.simple.c",
+									"desc": "The above program, but simplified."
+								}, 
+								{
+									"name": "square_max.s",
+									"desc": "Print a square number in MIPS, with a limit to prevent overflows."
+								}, 
+								{
+									"name": "number_size.c",
+									"desc": "A C program which checks if a number is in a range."
+								},
+								{
+									"name": "number_size.simple.c",
+									"desc": "The above program, but simplified."
+								},
+								{
+									"name": "number_size.s",
+									"desc": "The above program, but in MIPS."
+								},
+								{
+									"name": "triangle.c",
+									"desc": "Print a triangle using nested for loops."
+								},
+								{
+									"name": "triangle.simple.c",
+									"desc": "The above program, but simplified."
+								},
+								{
+									"name": "triangle.s",
+									"desc": "The above program, but in MIPS."
+								},
+								{
+									"name": "factorial.c",
+									"desc": "A simple program which non-recursively calculates a factorial in C."
+								},
+								{
+									"name": "factorial.simple.c",
+									"desc": "The above program, but simplified."
+								},
+								{
+									"name": "factorial.s",
+									"desc": "The above program, but in MIPS."
+								}
+							],
+							"links": [{
+								"name": "Tutorial notes",
+								"link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week4/mips-basics.md"
+							}]
+						}
+					]
+				}
+			]
+		},
+		{
+		"year": 21,
+		"term": 2,
+		"classes": [
+			{
+				"course": "COMP1521",
+				"class": "fri13a",
+				"assist": "Jashank",
+				"repo": "https://github.com/abiramen/comp1521-21t2-f13a/blob/main/",
+				"weeks": [
+					{
+						"week": 1,
+						"topic": "Revision",
+						"desc": "This week's content doesn't really depend on any of the lectures! We'll be familiarising ourselves again with concepts from COMP1[59]11.",
+						"slides": "2PACX-1vTNnvgpc9at_C6mMSMooxMJLkYiSzk5tIIPtIyK1IEIYWSe8_aw4K6lkq0CVD17L_XFfJD9Fqa53iyS",
+						"text": "Welcome!",
+						"files" : [
+							{
+								"name": "for_loops.c",
+								"desc": "An intro to for loops, which are really just spicy while loops."
+							}, 
+							{
+								"name": "static.c",
+								"desc": "A demo of the static keyword on variables inside functions."
+							},
+							{
+								"name": "struct.c",
+								"desc": "A refresher on how to use structs in C."
+							},
+							{
+								"name": "args.c",
+								"desc": "A refresher on reading in input from command line arguments."
+							},
+							{
+								"name": "recursion.c",
+								"desc": "An example using recursion to print an array."
+							},
+							{
+								"name": "bad_strings.c",
+								"desc": "A demo of an error when initialisng strings. Why does this happen?"
+							},
+							{
+								"name": "literals.c",
+								"desc": "Hardcoded strings behave slightly differently in C."
+							}
+						],
+						"links": [
+							{
+								"name": "All code is also in a GitHub repo, if you'd prefer that instead.",
+								"link": "https://github.com/abiramen/comp1521-21t2-f13a"
+							}
+						]
+					},
+					{
+						"week": 2,
+						"topic": "Bitwise operations and numeric conversions",
+						"desc": "This week focuses on bitwise operations, and converting numbers to binary and hexadecimal!",
+						"slides": "2PACX-1vQPnkSAvdgEJBI798wIb1GQo3V9zToRpjY4IgyxeyjpGWgkk8nQjdVKUbU4tfSWJxgBU8Uw_2Q3F8U7",
+						"files" : []
+					},
+					{
+						"week": 3,
+						"topic": "Two's complement and floating point numbers",
+						"desc": "This week's lab heavily involve manipulating bits of floating point numbers.",
+						"slides": "2PACX-1vRtJ_tIrB70w4EXETRxzo-G0FOkwZlv2qHPx3CPciHgsYDdCqVOdk8sMXiDtj2XSgbqMxyzAkRPqo1M",
+						"files" : []
+					},
+					{
+						"week": 4,
+						"topic": "MIPS basics",
+						"desc": "We get started with MIPS - labs include printing, if statements and for loops.",
+						"files" : [
+							{
+								"name": "square.c",
+								"desc": "Print a square number in C."
+							}, 
+							{
+								"name": "square.s",
+								"desc": "Print a square number in MIPS."
+							}, 
+							{
+								"name": "square_max.c",
+								"desc": "Print a square number in C, with a limit to prevent overflows."
+							}, 
+							{
+								"name": "square_max.s",
+								"desc": "Print a square number in MIPS, with a limit to prevent overflows."
+							}
+						]
+					},
+					{
+						"week": 5,
+						"topic": "MIPS data, arrays and functions",
+						"desc": "This week's a chonky one - we look at two weeks of content, preparing for the first assignment, snake.",
+						"files" : [
+							{
+								"name": "variables.c",
+								"desc": "Some C variables we want to represent as MIPS data."
+							},
+							{
+								"name": "variables.s",
+								"desc": "Our variables, now in ✨ MIPS ✨."
+							},
+							{
+								"name": "do_while.c",
+								"desc": "The all new do-while loop - a slightly cooler while loop."
+							},
+							{
+								"name": "do_while.s",
+								"desc": "The do-while loop, but in MIPS."
+							},
+							{
+								"name": "scan_and_print.c",
+								"desc": "Scanning 5 numbers into an array, and then printing them."
+							},
+							{
+								"name": "scan_and_print.s",
+								"desc": "Scanning 5 numbers into an array, and then printing them, but in MIPS!"
+							},
+							{
+								"name": "fib.c",
+								"desc": "A simple fibonacci implementation (without memoization) in C."
+							},
+							{
+								"name": "fib.simple.c",
+								"desc": "A fibonacci implementation made simpler to translate!"
+							},
+							{
+								"name": "fib.s",
+								"desc": "Our simple fibonacci implementation, made slightly less simple by being implemented in MIPS."
+							} 
+						]
+					},
+					{
+						"week": 7,
+						"topic": "Some MIPS Revision, and some hacking 👀",
+						"desc": "We covered a good chunk of this week's content in Week 5, so there isn't that much here!",
+						"files" : [
+							{
+								"name": "sizeof.c",
+								"desc": "A program we can use in order to determine the size of a struct."
+							},
+							{
+								"name": "struct.c",
+								"desc": "A look at how structs are laid out in memory."
+							},
+							{
+								"name": "unalign.s",
+								"desc": "A demo of attempting an unaligned read of memory in MIPS."
+							},
+							{
+								"name": "ptr.c",
+								"desc": "Doing some hacky stuff with casts in C to do evil things with pointers."
+							},
+							{
+								"name": "vuln.c",
+								"desc": "Bonus content - why using system can lead to security vulnerabilities! You aren't expected to understand most of this code."
+							}
+						]
+					},
+					{
+						"week": 8,
+						"topic": "Processes",
+						"desc": "We take a look at some process related stuff, as well as some content related to the pathfinder lab.",
+						"files" : [
+							{
+								"name": "access.c",
+								"desc": "Using access to determine if the user has permissions to execute a file."
+							},
+							{
+								"name": "fork.c",
+								"desc": "Some basic code demonstrating forking a process."
+							},
+							{
+								"name": "fork-2.c",
+								"desc": "Some more code demonstrating forking, and non-determinism thanks to scheduling."
+							},
+							{
+								"name": "basic-spawn.c",
+								"desc": "A tutorial example where I demonstrated the fork-execve method of creating new processes, compared to posix_spawn."
+							}
+						]
+					},
+					{
+						"week": 9,
+						"topic": "Files",
+						"desc": "We take a peek into files and file systems!",
+						"text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+						"files" : [
+							{
+								"name": "0-q2.md",
+								"desc": "A look at the typical Unix file system structure."
+							},
+							{
+								"name": "1-q3.md",
+								"desc": "Looking at the (very similar) stat and lstat functions."
+							},
+							{
+								"name": "2-q3-stat.c",
+								"desc": "Some code to look at the fields of struct stat."
+							},
+							{
+								"name": "3-q4.md",
+								"desc": "Understanding the output of the ls command, and symlinks."
+							},
+							{
+								"name": "4-q5.c",
+								"desc": "Using stat(2) to determine permissions on a file, and chmod(2) to update permissions."
+							},
+							{
+								"name": "5-fopen.md",
+								"desc": "A look at the fopen(3) library function."
+							},
+							{
+								"name": "6-firstline.c",
+								"desc": "A program to print the first line of a file, similar to the output of the `head -1` command."
+							},
+							{
+								"name": "7-fgrep.c",
+								"desc": "A program which produces output similar to fgrep, but without the re."
+							},
+							{
+								"name": "8-write_line.c",
+								"desc": "A program which reads from stdin and writes to a file."
+							},
+							{
+								"name": "9-q13-cursed.md",
+								"desc": "A solution to a cursed tutorial question."
+							},
+							{
+								"name": "10-io.md",
+								"desc": "Some final IO related content."
+							}
+						]
+					},
+					{
+						"week": 10,
+						"topic": "Virtual memory and some concurrency and parallelism",
+						"text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+						"desc": "We made it to the last week! We'll mainly be focusing on virtual memory.",
+						"files" : [
+							{
+								"name": "virtual_memory.md",
+								"desc": "The virtual memory content for this week's tutorial."
+							},
+							{
+								"name": "lru_example.md",
+								"desc": "An example of a least-recently-used eviction system."
+							},
+							{
+								"name": "lru.c",
+								"desc": "The starter code for this week's lab."
+							},
+							{
+								"name": "contiguous.md",
+								"desc": "An example of relocating addresses where address spaces are contiguous in physical memory."
+							},
+							{
+								"name": "paged_proc.md",
+								"desc": "An example where an address space is split across pages."
+							},
+							{
+								"name": "working_set.md",
+								"desc": "An example which looks at working sets and page faults."
+							},
+							{
+								"name": "parallelism.md",
+								"desc": "A quick overview of parallelism."
+							}
+						]
+					}
+				]
+			}
+		]
+	}]
 }
