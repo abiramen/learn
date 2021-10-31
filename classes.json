@@ -247,6 +247,38 @@
                 "name": "Tutorial notes",
                 "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week5/mips-memory.md"
               }]
+            },
+            {
+              "week": 7,
+              "topic": "More MIPS data and functions",
+              "text": "You can view the notes by visiting the link below!",
+              "desc": "This week's a chonky one - we look content preparing for the first assignment, minesweeper.",
+              "files" : [
+                {
+                  "name": "functions.md",
+                  "desc": "This week's tutorial notes"
+                },
+                {
+                  "name": "max.c",
+                  "desc": "A simple program to find the maximum value in an array."
+                },
+                {
+                  "name": "max.simple.c",
+                  "desc": "A simple program to find the maximum value in an array."
+                },
+                {
+                  "name": "max.s",
+                  "desc": "A simple program to find the maximum value in an array."
+                },
+                {
+                  "name": "sizeof.s",
+                  "desc": "A simple program to check the size of a type or variable."
+                }
+              ],
+              "links": [{
+                "name": "Tutorial notes",
+                "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week7/functions.md"
+              }]
 
             }
           ]
