@@ -279,7 +279,37 @@
                 "name": "Tutorial notes",
                 "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week7/functions.md"
               }]
-
+            },
+            {
+              "week": 8,
+              "topic": "More MIPS data and functions",
+              "desc": "This week's a chonky one - we look content preparing for the first assignment, minesweeper.",
+              "files" : [
+                {
+                  "name": "q1-fs.md",
+                  "desc": "A look at the typical Unix file system structure."
+                },
+                {
+                  "name": "q2-fgrep.c",
+                  "desc": "A program which produces output similar to fgrep, but without the re."
+                },
+                {
+                  "name": "q3-fopen.md",
+                  "desc": "A look at the fopen(3) library function."
+                },
+                {
+                  "name": "q6-first_line.c",
+                  "desc": "A program to print the first line of a file, similar to the output of the `head -1` command."
+                },
+                {
+                  "name": "q7-write_line.c",
+                  "desc": "A program which reads from stdin and writes to a file."
+                },
+                {
+                  "name": "q9-14-io.md",
+                  "desc": "Some final IO related content."
+                }
+              ]
             }
           ]
         }
