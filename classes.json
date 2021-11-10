@@ -310,6 +310,34 @@
                   "desc": "Some final IO related content."
                 }
               ]
+            },
+            {
+              "week": 9,
+              "topic": "More files",
+              "desc": "We take more of a look at file systems.",
+              "text": "You can view the notes by visiting the link below!",
+              "files" : [
+                {
+                  "name": "week9.md",
+                  "desc": "A look at the assignment and more file system things."
+                },
+                {
+                  "name": "stat.c",
+                  "desc": "Some code to look at the fields of struct stat."
+                },
+                {
+                  "name": "chmod_if_public_write.c",
+                  "desc": "Using stat(2) to determine permissions on a file, and chmod(2) to update permissions."
+                },
+                {
+                  "name": "check_msg.c",
+                  "desc": "Using fseek(2) to reposition a file stream."
+                }
+              ],
+              "links": [{
+                "name": "Tutorial notes",
+                "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week9/week9.md"
+              }]
             }
           ]
         }
