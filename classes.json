@@ -346,6 +346,10 @@
               "desc": "We made it to the last week! We'll mainly be focusing on virtual memory.",
               "files" : [
                 {
+                  "name": "0-print_diary.c",
+                  "desc": "A C program which uses environment variables to determine the path of a file."
+                },
+                {
                   "name": "1-virtual_memory.md",
                   "desc": "The virtual memory content for this week's tutorial."
                 },
