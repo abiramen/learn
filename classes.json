@@ -338,6 +338,42 @@
                 "name": "Tutorial notes",
                 "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week9/week9.md"
               }]
+            },
+            {
+              "week": 10,
+              "topic": "Virtual memory",
+              "text": "If you'd like to actually load the .md files properly, expand it, and click the link to the filename in the bottom-left of the new window.",
+              "desc": "We made it to the last week! We'll mainly be focusing on virtual memory.",
+              "files" : [
+                {
+                  "name": "1-virtual_memory.md",
+                  "desc": "The virtual memory content for this week's tutorial."
+                },
+                {
+                  "name": "2-lru_example.md",
+                  "desc": "An example of a least-recently-used eviction system."
+                },
+                {
+                  "name": "lru.c",
+                  "desc": "The starter code for this week's lab."
+                },
+                {
+                  "name": "3-contiguous.md",
+                  "desc": "An example of relocating addresses where address spaces are contiguous in physical memory."
+                },
+                {
+                  "name": "4-paged_proc.md",
+                  "desc": "An example where an address space is split across pages."
+                },
+                {
+                  "name": "5-working_set.md",
+                  "desc": "An example which looks at working sets and page faults."
+                }
+              ],
+              "links": [{
+                "name": "Tutorial notes",
+                "link": "https://github.com/abiramen/comp1521-21t3-h11a/blob/main/week10/virtual-memory.md"
+              }]
             }
           ]
         }
